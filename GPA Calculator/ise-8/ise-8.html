@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information & Science Engineering - 8th Semester</title>
+  <link rel="stylesheet" href="ise-8.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+      <h1><img src="../images/jssstu-logo.jpg">JSS SCIENCE AND TECHNOLOGY UNIVERSITY</h1>
+      <h2>Information Science & Engineering</h2>
+      <h3>SEMESTER - VIII;</h3>
+
+      <table>
+          <tr>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Grade</th>
+          </tr>
+          
+          <tr>
+              <td class="sub-code">20IS81x</td>
+              <td class="sub-name">Professional Elective-V</td>
+              <td>
+                <select class="grade" id="subject-1">
+                    <option class="grade-value" value="S">S</option>
+                    <option class="grade-value" value="A">A</option>
+                    <option class="grade-value" value="B">B</option>
+                    <option class="grade-value" value="C">C</option>
+                    <option class="grade-value" value="D">D</option>
+                    <option class="grade-value" value="E">E</option>
+                    <option class="grade-value" value="F">F</option>
+                </select>
+            </td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS82x</td>
+              <td class="sub-name">Professional Elective-VI</td>
+              <td>
+                <select class="grade" id="subject-2">
+                    <option class="grade-value" value="S">S</option>
+                    <option class="grade-value" value="A">A</option>
+                    <option class="grade-value" value="B">B</option>
+                    <option class="grade-value" value="C">C</option>
+                    <option class="grade-value" value="D">D</option>
+                    <option class="grade-value" value="E">E</option>
+                    <option class="grade-value" value="F">F</option>
+                </select>
+            </td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS83P</td>
+              <td class="sub-name">Project Work</td>
+              <td>
+                <select class="grade" id="subject-3">
+                    <option class="grade-value" value="S">S</option>
+                    <option class="grade-value" value="A">A</option>
+                    <option class="grade-value" value="B">B</option>
+                    <option class="grade-value" value="C">C</option>
+                    <option class="grade-value" value="D">D</option>
+                    <option class="grade-value" value="E">E</option>
+                    <option class="grade-value" value="F">F</option>
+                </select>
+            </td>
+          </tr>
+      </table>
+
+      <button id="calculateGPA">Calculate GPA</button>
+      <button id="resetBtn">Reset</button>
+
+      <p id="result"></p>
+      <i class='bx bx-arrow-back' id="back" style="size: 20px;" onclick="window.location='../index.html';"></i>
+  </div>
+    
+   <script src="ise-8.js"></script>
+</body>
+</html>
